@@ -1,19 +1,142 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-        <link rel="stylesheet" type="text/css" href="styles.css"/>
-		</head>
+<html>
+	<head>
+			
+			<style type="text/css">
+				body {
+					margin:0;
+					padding:0;
+				}
+				ul {
+					margin:0;
+					padding:0;
+				}
+				
+				ul li {
+					list-style:none;
+					overflow:hidden;
+					height:600px;
+					position:relative;
+				}
+				
+				.parallax-background {
+					height:700px;
+				}
+				
+				.adidas_1	{
+					background-image:url('adidas_1.jpg');
+				}
+				.adidas_2	{
+					background-image:url('adidas_2.jpg');
+					background-position: 5% 30%;
+				}
+				.nike_1	{
+					background-image:url('http://2.bp.blogspot.com/-lD-B9kwARpI/TnfJzAoAzPI/AAAAAAAAAdk/HtqrlFPenDc/s1600/Brazil_Ad_tennis_0676_bew_color4_v2.jpg');
+					background-size:cover;	
+				}
+				.nike_2	{
+					background-image:url('nike_2.jpg');
+					background-size:cover;	
+				}
+				.strength_1	{
+					background-image:url('strength_1.jpg');
+					background-position:30% 60%;	
+				}
+				.strength_2	{
+					background-image:url('strength_2.jpg');
+					background-position:30% 55%;
+				}
+				
+				ul li .whitecontent {
+					position:absolute;
+					top:20px;
+					left:50px;
+					color:white;
+					font-family:helvetica;	
+				}
+				
+				ul li .altwhite {
+					position:absolute;
+					top:20px;
+					left:800px;
+					color:white;
+					font-family:helvetica;	
+				}
+				
+				ul li .blackcontent {
+					position:absolute;
+					top:20px;
+					left:50px;
+					color:black;
+					font-family:helvetica;	
+				}
+				
+				ul li .altblack {
+					position:absolute;
+					top:20px;
+					left:800px;
+					color:black;
+					font-family:helvetica;	
+				}
+				
+				h1 {
+					font-size:70px;
+					margin-bottom:0px;
+				}
+				
+				h2 {
+					font-size:55px;
+					margin-bottom:0px;
+			
+			</style>		
+	</head>
 	
-		<body>
-  			<h1><strong><center>Andy's Webpage</center></strong></h1>
-  			<marquee>Test</marquee>
-  			<a href="second.html">Second Page</a>
-  			<h3 class="italicise">Lorem Ipsum</h3>
-  			<p><center><span>Lorem ipsum</span> dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <span>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</span> In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</center></p>
-  			<img src="http://fc02.deviantart.net/fs71/f/2011/139/3/7/future_city_too_by_robertdbrown-d3gq92q.jpg" title="Future London" width="100%">
-  			<img src="http://www.mojoko.com/show2/cityscape/cityscape_w1600.jpg" title="Future New York" width="100%">
-  			<img src="http://highdefinitionwallpaper.files.wordpress.com/2013/01/wallpaper-2591540.jpg" title="Future Manhattan" width="100%">
-		</body>
-</html> 
-
-
+	<body>
+		
+		<ul class="parallax">
+			<li>
+				<div class="parallax-background adidas_1"></div>
+				<div class="whitecontent">
+					<h1>Sample Text</h1>
+					<h2>This is a sample</h2>
+				</div>	
+			</li>
+			<li>
+				<div class="parallax-background adidas_2"></div>
+				<div class="whitecontent">
+					<h1>Sample Text</h1>
+					<h2>This is a sample</h2>
+				</div>	
+			</li>
+			<li>
+				<div class="parallax-background nike_1"></div>
+				<div class="altwhite">
+					<h1>Sample Text</h1>
+					<h2>This is a sample</h2>
+				</div>	
+				</div>		
+			</li>
+			<li>
+				<div class="parallax-background nike_2"></div>
+				<div class="whitecontent">
+					<h1>Sample Text</h1>
+					<h2>This is a sample</h2>
+				</div>		
+			</li>
+			<li>
+				<div class="parallax-background strength_1"></div>
+				<div class="blackcontent">
+					<h1>Sample Text</h1>
+					<h2>This is a sample</h2>	
+			</li>
+			<li>
+				<div class="parallax-background strength_2"></div>
+				<div class="altblack">
+					<h1>Sample Text</h1>
+					<h2>This is a sample</h2>	
+			</li>
+		</ul>
+					
+	
+	</body>
+</html>
