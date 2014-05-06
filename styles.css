@@ -1,0 +1,89 @@
+
+			<style type="text/css">
+				body {
+					margin:0;
+					padding:0;
+				}
+				ul {
+					margin:0;
+					padding:0;
+				}
+				
+				ul li {
+					list-style:none;
+					overflow:hidden;
+					height:600px;
+					position:relative;
+				}
+				
+				.parallax-background {
+					height:700px;
+				}
+				
+				.adidas_1	{
+					background-image:url('adidas_1.jpg');
+				}
+				.adidas_2	{
+					background-image:url('adidas_2.jpg');
+					background-position: 5% 30%;
+				}
+				.nike_1	{
+					background-image:url('tennis.jpg');
+					background-size:cover;	
+				}
+				.nike_2	{
+					background-image:url('nike_2.jpg');
+					background-size:cover;	
+				}
+				.strength_1	{
+					background-image:url('strength_1.jpg');
+					background-position:30% 60%;	
+				}
+				.strength_2	{
+					background-image:url('strength_2.jpg');
+					background-position:30% 55%;
+				}
+				
+				ul li .whitecontent {
+					position:absolute;
+					top:20px;
+					left:50px;
+					color:white;
+					font-family:helvetica;	
+				}
+				
+				ul li .altwhite {
+					position:absolute;
+					top:20px;
+					left:800px;
+					color:white;
+					font-family:helvetica;	
+				}
+				
+				ul li .blackcontent {
+					position:absolute;
+					top:20px;
+					left:50px;
+					color:black;
+					font-family:helvetica;	
+				}
+				
+				ul li .altblack {
+					position:absolute;
+					top:20px;
+					left:800px;
+					color:black;
+					font-family:helvetica;	
+				}
+				
+				h1 {
+					font-size:70px;
+					margin-bottom:0px;
+				}
+				
+				h2 {
+					font-size:55px;
+					margin-bottom:0px;
+			
+			</style>		
+	
